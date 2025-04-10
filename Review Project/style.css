@@ -1,0 +1,92 @@
+main, section, .review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    height: 90vh;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h2{
+    margin-bottom: 0px;    
+}
+
+.title .underline{
+    align-items: center;
+
+    width: 100px;
+    height: 2px;
+    background-color: #005eff;
+
+    margin: 10px 0;
+}
+
+.review{
+    width: 350px;
+    height: 300px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px .5px #b5b5b5;
+}
+
+#person{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+
+    background-size: cover;
+}
+
+#author, #job{
+    margin: 0px 0px;
+}
+
+#author{
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+#job{
+    color: #005eff;
+    text-transform: uppercase;
+
+    font-size: .7rem;
+}
+
+#info{
+    margin: 10px;
+    padding: 10px;    
+}
+
+.button-container{
+    display: flex;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.button-container i{
+    margin: 0 5px;
+    color: #b2cdfd;
+}
+
+.random-btn{
+    cursor: pointer;
+
+    border-radius: 10px;
+    border: solid 1px #005eff;
+
+    background-color: #b2cdfd;
+    color: #70a4ff    
+};
